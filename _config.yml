@@ -1,9 +1,9 @@
 # Site settings
-title: claztec's hack
+title: claztec hacks
 email: claztec@gmail.com
 description: 개발하면서 쓰는 이야기
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://claztec.github.io" # the base hostname & protocol for your site
+url: "http://hacks.claztec.net" # the base hostname & protocol for your site
 twitter_username: claztec
 github_username:  claztec
 blog: http://blog.claztec.net
