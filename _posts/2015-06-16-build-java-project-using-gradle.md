@@ -7,7 +7,8 @@ title: "gradle로 java 프로젝트 다루기"
 
 ## 디렉토리 만들기
 gradle-java 라는 이름의 디렉토리를 임의로 만들었다.
-``` bash
+
+```bash
 claztec:Desktop claztec$ mkdir gradle-java
 claztec:Desktop claztec$ cd gradle-java/
 claztec:gradle-java claztec$ pwd
@@ -17,7 +18,8 @@ claztec:gradle-java claztec$
 
 ## 디렉토리 구조 잡기
 src/main/java 과 src/test/java 로 디렉토리 구조를 잡는다.
-``` bash
+
+```bash
 claztec:gradle-java claztec$ mkdir -p src/main/java/net/claztec/hello
 claztec:gradle-java claztec$ mkdir -p src/test/java
 claztec:gradle-java claztec$ find .
@@ -66,7 +68,7 @@ jar와 uploadArchives 는 jar 파일로 패키징을 하기 위해 추가하였�
 jar manifes에 Main-Class 속성 지정이 꽤나 중요하다.
 
 
-```gradle
+```java
 apply plugin: 'java'
 
 repositories {
@@ -204,6 +206,7 @@ claztec:repos claztec$
 
 
 ## 참고
-http://www.gradle.org/docs/current/userguide/tutorial_java_projects.html#N103DE
+[http://www.gradle.org/docs/current/userguide/tutorial_java_projects.html#N103DE](http://www.gradle.org/docs/current/userguide/tutorial_java_projects.html#N103DE
+)
 
-http://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-our-first-java-project/
+[http://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-our-first-java-project/](http://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-our-first-java-project/)
