@@ -1,0 +1,13 @@
+# Site settings
+title: claztec's hack
+email: claztec@gmail.com
+description: 개발하면서 쓰는 이야기
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://claztec.github.io" # the base hostname & protocol for your site
+twitter_username: claztec
+github_username:  claztec
+blog: http://blog.claztec.net
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
