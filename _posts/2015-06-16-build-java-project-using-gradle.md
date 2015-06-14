@@ -133,6 +133,7 @@ claztec:gradle-java claztec$
 ```
 
 아래와 같이 class 파일이 생기고, jar로도 묶어준다.
+
 ```bash
 claztec:gradle-java claztec$ find build
 build
