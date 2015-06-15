@@ -11,3 +11,8 @@ blog: http://blog.claztec.net
 # Build settings
 #markdown: kramdown
 markdown: redcarpet
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'

@@ -23,7 +23,7 @@ http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html
 기본 폰트가 별로라서 폰트를 구글 noto로 수정.
 코드 하이라이트 부분 폰트 사이즈도 조절.
 
-## 코드 하이라이트
+### 코드 하이라이트
 http://jekyllrb.com/docs/templates/
 
 ```를 쓰기 위해 markdown을 redcarpet으로 변경
@@ -69,3 +69,5 @@ public class ArticleController {
 gist 지원
 {% gist claztec/4207310402cff9e342c0 %}
 
+### archive
+http://joshualande.com/jekyll-github-pages-poole/
