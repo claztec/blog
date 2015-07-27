@@ -18,6 +18,26 @@ http://emflant.tistory.com/120
 http://jekyllis.com/install-jekyll/
 http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html
 
+### 리눅스(우분투)에 jekyll 설치
+
+curl과 nodejs는 이미 설치.
+
+```bash
+claztec@claztec-ThinkPad:~$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+claztec@claztec-ThinkPad:~$ \curl -sSL https://get.rvm.io | bash -s stable
+claztec@claztec-ThinkPad:~$ source /home/claztec/.rvm/scripts/rvm 
+claztec@claztec-ThinkPad:~$ rvm requirements
+claztec@claztec-ThinkPad:~$ rvm install 2.2.2
+claztec@claztec-ThinkPad:~$ rvm use 2.2.2 --default
+claztec@claztec-ThinkPad:~$ gem install jekyll
+```
+
+터미털에서 login shell 설정을 꼭 해주자.
+
+http://jekyllis.com/install-jekyll/
+http://sharadchhetri.com/2014/06/30/install-jekyll-on-ubuntu-14-04-lts/
+
+
 ## 설정
 ### 폰트
 기본 폰트가 별로라서 폰트를 구글 noto로 수정.
