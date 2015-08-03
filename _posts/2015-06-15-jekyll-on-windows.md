@@ -10,13 +10,15 @@ title:  "지킬 시작하기"
 ### 윈도우에 git 설치
 exe 설치 파일 받아서 설치하면 끝.
 나중에 파일올리기 위해 사용.
-http://emflant.tistory.com/120
+
+* [http://emflant.tistory.com/120](http://emflant.tistory.com/120)
 
 ### 윈도우에 jekyll 설치
 파일을 다운받고 cmd를 열어서 사용하면 된다.
 `jekyll serve` 도 된다.
-http://jekyllis.com/install-jekyll/
-http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html
+
+* [http://jekyllis.com/install-jekyll/](http://jekyllis.com/install-jekyll/)
+* [http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
 
 ### 리눅스(우분투)에 jekyll 설치
 
@@ -34,8 +36,8 @@ claztec@claztec-ThinkPad:~$ gem install jekyll
 
 터미털에서 login shell 설정을 꼭 해주자.
 
-http://jekyllis.com/install-jekyll/
-http://sharadchhetri.com/2014/06/30/install-jekyll-on-ubuntu-14-04-lts/
+* [http://jekyllis.com/install-jekyll/](http://jekyllis.com/install-jekyll/)
+* [http://sharadchhetri.com/2014/06/30/install-jekyll-on-ubuntu-14-04-lts/](http://sharadchhetri.com/2014/06/30/install-jekyll-on-ubuntu-14-04-lts/)
 
 
 ## 설정
@@ -44,7 +46,8 @@ http://sharadchhetri.com/2014/06/30/install-jekyll-on-ubuntu-14-04-lts/
 코드 하이라이트 부분 폰트 사이즈도 조절.
 
 ### 코드 하이라이트
-http://jekyllrb.com/docs/templates/
+
+* [http://jekyllrb.com/docs/templates/](http://jekyllrb.com/docs/templates/)
 
 ```를 쓰기 위해 markdown을 redcarpet으로 변경
 
@@ -89,5 +92,6 @@ public class ArticleController {
 gist 지원
 {% gist claztec/4207310402cff9e342c0 %}
 
-### archive
-http://joshualande.com/jekyll-github-pages-poole/
+### archive, analytics 
+
+* [http://joshualande.com/jekyll-github-pages-poole/](http://joshualande.com/jekyll-github-pages-poole/)
