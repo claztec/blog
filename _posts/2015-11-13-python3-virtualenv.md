@@ -13,7 +13,8 @@ claztec@claztec-ThinkPad:~/git/tools$
 ```
 
 ## virtualenv 설정
--p python3 를 설정하는게 포인트.  
+-p python3 를 설정하는게 포인트
+
 ```bash
 (venv)claztec@claztec-ThinkPad:~/git/tools$ virtualenv -p /usr/bin/python3 venv
 Running virtualenv with interpreter /usr/bin/python3
@@ -33,5 +34,5 @@ drwxrwxr-x  5 claztec claztec 4096 11월 13 15:45 venv/
 (venv)claztec@claztec-ThinkPad:~/git/tools$ . venv/bin/activate
 (venv)claztec@claztec-ThinkPad:~/git/tools$ python --version
 Python 3.4.3+
-(venv)claztec@claztec-ThinkPad:~/git/tools$ 
+(venv)claztec@claztec-ThinkPad:~/git/tools$
 ```
