@@ -89,9 +89,6 @@ public class ArticleController {
     }
 ```
 
-gist 지원
-{% gist claztec/4207310402cff9e342c0 %}
-
 ### archive, analytics 
 
 * [http://joshualande.com/jekyll-github-pages-poole/](http://joshualande.com/jekyll-github-pages-poole/)
