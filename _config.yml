@@ -12,7 +12,11 @@ blog: http://blog.claztec.net
 #markdown: kramdown
 markdown: redcarpet
 
+gems: [jekyll-paginate, jekyll-gist]
+
 pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/atom.xml'
+
+paginate: 10
