@@ -14,13 +14,15 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
 }
 
 
@@ -70,7 +72,7 @@ ul, ol {
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -80,7 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: $base-font-weight;
 }
 
 
@@ -100,8 +102,15 @@ a {
         color: $text-color;
         text-decoration: underline;
     }
-}
 
+    .social-media-list &:hover {
+        text-decoration: none;
+
+        .username {
+            text-decoration: underline;
+        }
+    }
+}
 
 
 /**
@@ -111,7 +120,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    @include relative-font-size(1.125);
     letter-spacing: -1px;
     font-style: italic;
 
@@ -127,8 +136,7 @@ blockquote {
  */
 pre,
 code {
-    font-family: 'Ubuntu Mono';
-    font-size: 14px;
+    @include relative-font-size(0.9375);
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
@@ -140,7 +148,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     > code {
         border: 0;
@@ -176,13 +184,10 @@ pre {
 /**
  * Clearfix
  */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+%clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
@@ -190,21 +195,21 @@ pre {
 /**
  * Icons
  */
-.icon {
+.icon > svg {
+    display: inline-block;
+    vertical-align: middle;
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
+    path {
+        fill: $grey-color;
     }
 }
 
+.social-media-list {
+    .icon {
+        padding-right: 5px;
+    }
 
-.ads {
-    margin-bottom: 20px;
+    li + li {
+        padding-top: 5px;
+    }
 }
