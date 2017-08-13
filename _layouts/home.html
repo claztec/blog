@@ -16,7 +16,11 @@ layout: default
 
             <h2>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                {% if post.author %}
+                <span class="post-author">by {{ post.author }}</span>
+                {% endif %}
             </h2>
+
             <p>
                 {{ post.content | strip_html | truncatewords:30 }}
             </p>
