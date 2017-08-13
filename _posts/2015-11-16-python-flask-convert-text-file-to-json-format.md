@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Flask 에서 json 형식의 텍스트 파일을 읽어 json 으로 응답하기"
+author: Derek Choi
 ---
 json 형식의 파일을 읽어서 flask에서 application/json 형태로 바로 내려야 하는 일이 생겼다.
 어렵게 생각했으나 생각보다 쉽게 풀렸다.

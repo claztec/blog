@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Spring Data Jpa 에서 Specification 사용하기"
+author: Derek Choi
 ---
 Spring Data를 사용하면서 JpaRepository 인터페이스를 확장(extends)해서 주로 사용하였는데,
 이번에 Specification을 이용해 보았다.  

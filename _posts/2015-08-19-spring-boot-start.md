@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "스프링 부트(Spring Boot) 시작하기"
+author: Derek Choi
 ---
 
 # 스프링 부트 프로젝트 세팅
