@@ -33,7 +33,7 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
-paginate: 10
+#paginate: 10
 paginate_path: '/page/:num'
 
 pagination:
