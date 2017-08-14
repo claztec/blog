@@ -2,6 +2,7 @@
 layout: post
 title: "Python3 Virtualenv 설정"
 author: Derek Choi
+comments: true
 ---
 python2 와 python3 가 같이 설치되어 있는 PC에서 python3로 virtualenv를 설정하기
 

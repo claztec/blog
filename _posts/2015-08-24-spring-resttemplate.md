@@ -2,6 +2,7 @@
 layout: post
 title: "스프링 RestTemplate을 이용해서 GET 요청하기"
 author: Derek Choi
+comments: true
 ---
 
 # 스프링 RestTemplate 사용

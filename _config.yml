@@ -33,6 +33,9 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
+disqus:F
+  shortname: claztec-hacks
+
 #paginate: 10
 paginate_path: '/page/:num'
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "지킬 시작하기"
 author: Derek Choi
+comments: true
 ---
 우여곡절 끝에 jekyll을 설치하였다. 맥북에 설치하려고 했지만 거지같은 ruby 설정에 지쳐서 포기. 오히려 윈도우에 설치하는게 휠씬 쉽고 잘 되는것 같다.
 
@@ -90,6 +91,6 @@ public class ArticleController {
     }
 ```
 
-### archive, analytics 
+### 참고
 
 * [http://joshualande.com/jekyll-github-pages-poole/](http://joshualande.com/jekyll-github-pages-poole/)

@@ -2,6 +2,7 @@
 layout: post
 title: "gradle로 java 프로젝트 다루기"
 author: Derek Choi
+comments: true
 ---
 어느순간 gradle이 대세가 되지 않을까?
 튜토리얼 보며 gradle 따라해보기.

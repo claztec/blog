@@ -5,4 +5,5 @@
 layout: home
 pagination: 
   enabled: true
+comments: true
 ---
