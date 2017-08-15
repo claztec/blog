@@ -8,6 +8,11 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .header-title {
+        margin: 0 auto;
+        width: 150px;
+    }
 }
 
 .site-title {
@@ -22,10 +27,6 @@
     &:visited {
         color: $grey-color-dark;
     }
-}
-
-.site-profile {
-    border-radius: 50%;
 }
 
 .site-nav {
@@ -48,6 +49,17 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+
+    .trigger {
+        position: relative;
+    }
+
+    .site-profile {
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
 
     @include media-query($on-palm) {
