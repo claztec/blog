@@ -4,6 +4,7 @@ title: Spring Boot + AngularJS 웹소캣 적용하기
 author: Derek Choi
 comments: true
 ---
+
 트위터 앱에 리트윗과 좋아요를 다른 사람이 누르면 새로 고침 없이 카운트가 반영이 되는걸 볼 수 있다.
 이런 효과를 주기 위해 서비스에 웹소캣을 적용해 보기로 했다.
 
