@@ -2,6 +2,7 @@
 
 // Define defaults for each variable.
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url(//fonts.googleapis.com/icon?family=Material+Icons);
 
 $base-font-family: 'Jeju Gothic', sans-serif !default;
@@ -19,6 +20,10 @@ $brand-color:      #2a7ae2 !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
+$content-font-family: 'Jeju Myeongjo', sans-serif !default;
+$content-font-size:   16px !default;
+$content-font-weight: 400 !default;
 
 // Width of the content area
 $content-width:    900px !default;
