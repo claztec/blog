@@ -28,6 +28,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 pages_list:
   About: '/about'
   Archive: '/archive'
@@ -47,6 +48,7 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
