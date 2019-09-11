@@ -1,11 +1,12 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
+@import url(//fonts.googleapis.com/css?family=Noto+Sans+KR:500&display=swap&subset=korean);
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url(//fonts.googleapis.com/icon?family=Material+Icons);
 
-$base-font-family: 'Jeju Gothic', sans-serif !default;
+$base-font-family: 'Noto Sans KR', sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -21,7 +22,7 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$content-font-family: 'Jeju Myeongjo', sans-serif !default;
+$content-font-family: 'Noto Sans KR', sans-serif !default;
 $content-font-size:   16px !default;
 $content-font-weight: 400 !default;
 
