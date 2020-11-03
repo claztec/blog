@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: google1c108b98539911f8.html
+
+User-agent: *
+
+
+Sitemap: https://hacks.claztec.net/sitemap.xml

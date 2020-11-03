@@ -23,6 +23,9 @@ twitter_username: claztec
 github_username:  claztec
 blog: http://blog.claztec.net
 
+# config
+baseurl: /blog
+
 # Build settings
 markdown: kramdown
 theme: minima
